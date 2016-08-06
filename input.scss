@@ -1,0 +1,40 @@
+@import "modules/navigation";
+@import "modules/header";
+@import "modules/section";
+@import "modules/footer";
+
+
+$colour-background: blue;
+
+div {
+    padding: 0px;
+}
+
+
+// $bg-colour: lightgrey;
+// $hover-colour: grey;
+// $text-colour: #ffffff;
+//
+// nav {
+//     ul {
+//         background: $bg-colour;
+//         margin: 0;
+//         padding: 0;
+//         list-style: none;
+//     }
+//
+//     li {
+//         display: inline-block;
+//     }
+//
+//     a {
+//         color: $text-colour;
+//         display: inline-block;
+//         padding: 10px 16px;
+//         text-decoration: none;
+//     }
+//
+//     a:hover {
+//         background: $hover-colour;
+//     }
+// }

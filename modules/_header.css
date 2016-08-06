@@ -1,0 +1,12 @@
+.header {
+    @mixin backImage '../public/manta.jpeg', 500px;
+
+    @media $small {
+        @mixin backImage '../public/manta.jpeg', 800px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
